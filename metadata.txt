@@ -1,0 +1,24 @@
+[general]
+name=MapTemplate Studio
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+description=A high-resolution, cartography-ready QGIS print layout template studio with curated layouts, cartographic preflight QA, and multi-format export.
+version=1.2.6
+author=Ariesplus Geospatial Solution
+email=ariesplusgeo@gmail.com
+about=MapTemplate Studio provides a curated gallery of 60 cartographic print layout templates, flexible paper & canvas size scaling (ISO A5-A0, ANSI/Architectural, Digital, and Custom mm), role-based layer binding, automatic extent fitting, preflight quality checks, and production export presets for QGIS. Developed by Ariesplus Geospatial Solution.
+changelog=1.2.6 - Resolved PEP8 E741 code quality checker requirement (renamed ambiguous variable name).
+    1.2.5 - Official repository release with repository URL updates and code validation compliance.
+    1.2.1 - Resolved official repository code validation requirements by replacing defensive try/except/pass blocks with explicit object attribute and null guards.
+    1.2.0 - Added 19 user-selectable paper & canvas size options (A5-A0, B4-B3, Letter, Legal, Tabloid, ANSI C-E, Arch D, 16:9, 4:3, Square, and Custom mm dimensions) with orientation switching and automatic proportional layout rescaling across Wizard and Gallery Inspector.
+    1.1.0 - Added 10 architectural wireframe map templates (60 bundled templates across 24 layout architectures) and official MapTemplate Studio brand icon and logo.
+    1.0.0 - Initial release with curated cartographic layout gallery, role-based layer binding, preflight QA engine, and multi-format export presets.
+homepage=https://github.com/Hendrcks/Map-Templates-studio
+repository=https://github.com/Hendrcks/Map-Templates-studio
+tracker=https://github.com/Hendrcks/Map-Templates-studio/issues
+icon=icon.png
+category=Cartography
+tags=layout,template,print,cartography,map,export,atlas,pdf,composer
+experimental=False
+deprecated=False
+hasProcessingProvider=no
